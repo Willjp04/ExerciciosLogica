@@ -1,8 +1,6 @@
-import javax.sound.midi.Soundbank;
-import java.math.BigDecimal;
 import java.util.Scanner;
 
-public class CotacaoDolar {
+public class ExercicioCotacaoDolar {
 
     public static void main(String[] args) {
         //Entrar via teclado com o valor da cotação do dólar e uma certa quantidade de dólares. Calcular e exibir o valor correspondente em Reais (R$).
