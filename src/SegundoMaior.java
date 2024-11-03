@@ -19,8 +19,9 @@ public class SegundoMaior {
         System.out.print("Digite o segundo numero: ");
         numero2 = sc.nextInt();
 
-        while (numero2 < numero1) {
-            System.out.println("Segundo número não pode ser menor que o primeiro!");
+        while (numero2 <= numero1) {
+
+            System.out.println("Segundo número não pode ser menor ou igual ao primeiro!");
             System.out.print("Digite novamente o segundo número:");
             numero2 = sc.nextInt();
         }
