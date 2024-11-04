@@ -19,5 +19,7 @@ public class ExercicioLogicaGraus {
         graus = graus * 1.8 + 32;
 
         System.out.printf("A temperatura em Fahrenheit é: " + graus);
+
+        scan.close();
     }
 }

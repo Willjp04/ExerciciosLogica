@@ -42,7 +42,7 @@ public class ExercicioCompraTroco {
 
         pagamento-=soma;
 
-
+        scan.close();
 
         System.out.printf("O troco será de R$ %.2f " , pagamento);
 

@@ -16,5 +16,9 @@ public class MenorValor {
         valor2 = scan.nextDouble();
 
         System.out.println("O menor valor é: " + Math.min(valor1, valor2));
+
+        scan.close();
     }
+
+
 }

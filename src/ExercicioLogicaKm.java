@@ -18,7 +18,8 @@ public class ExercicioLogicaKm {
         milha *= km;
         System.out.println("O VALOR CONVERTIDO PARA KM É: "+ milha + " Km");
 
-
+        scan.close();
         System.out.println();
+
     }
 }

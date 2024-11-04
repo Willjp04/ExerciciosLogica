@@ -27,5 +27,9 @@ public class ExercicioTerrenoGrande2 {
             System.out.println("Terreno Pequeno!");
         }
         System.out.println("Area: " + area);
+
+        scan.close();
     }
+
+
 }

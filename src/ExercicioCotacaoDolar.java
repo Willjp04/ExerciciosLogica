@@ -27,5 +27,7 @@ public class ExercicioCotacaoDolar {
 
         System.out.printf("O VALOR CONVERTIDO PARA REAIS É: R$ %.2f " , total);
 
+        scan.close();
+
     }
 }

@@ -28,6 +28,8 @@ public class ExercicioMediaAritmetica {
 
         soma = soma / valores.length;
 
+        scan.close();
+
         System.out.println("A média dos valores digitados é: " + soma);
 
 

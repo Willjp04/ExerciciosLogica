@@ -18,6 +18,7 @@ public class MaiorValor {
 
         System.out.println("O maior valor é: " + Math.max(valor1, valor2));
 
+        scan.close();
 
 
     }

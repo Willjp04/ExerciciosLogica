@@ -15,6 +15,7 @@ public class ApenasPositivos {
             numero = scan.nextInt();
 
         }
+        scan.close();
         System.out.println("Número positivo digitado!");
 
     }

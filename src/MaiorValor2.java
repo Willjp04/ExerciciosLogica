@@ -23,5 +23,7 @@ public class MaiorValor2 {
         resultado = Math.max(valor1, Math.max(valor2, valor3));
 
         System.out.println("O maior valor é: " + resultado);
+
+        scan.close();
     }
 }

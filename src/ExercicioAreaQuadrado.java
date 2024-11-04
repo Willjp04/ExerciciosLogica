@@ -17,7 +17,7 @@ public class ExercicioAreaQuadrado {
         areaQuadrado = Math.pow(aresta, 2);
 
         System.out.println("A área do quadrado é: " + areaQuadrado + " cm²");
-
+        scan.close();
 
 
     }
